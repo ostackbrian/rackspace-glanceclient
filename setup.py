@@ -24,7 +24,7 @@ setuptools.setup(
                 'auth package',
     license='Apache License, Version 2.0',
     url='https://github.com/ostackbrian/rackspace-glanceclient',
-    install_requires=['python-novaclient', 'rackspace-auth-openstack']
+    install_requires=['python-novaclient', 'rackspace-auth-openstack'],
     classifiers=[
         "Development Status :: 3 - Alpha",
         #"Development Status :: 4 - Beta",
@@ -33,6 +33,6 @@ setuptools.setup(
         "Intended Audience :: Information Technology",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
-        "Programming Language :: Python",
+        "Programming Language :: Python"
     ]
 )
